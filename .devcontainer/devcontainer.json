@@ -1,0 +1,13 @@
+{
+    "name": "Drosera Dev Env",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "settings": {
+      "terminal.integrated.defaultProfile.linux": "bash"
+    },
+    "postCreateCommand": "bash .devcontainer/setup.sh",
+    "forwardPorts": [31313, 31314],
+    "remoteUser": "vscode"
+  }
+  
